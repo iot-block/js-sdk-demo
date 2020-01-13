@@ -84,7 +84,7 @@
         payload: ""
     };
     
-    const stx = sdkManager.signTx( 
+    const stx = await sdkManager.signTx( 
         txRow,
         "0x43034A1C0FCDFD7XXXXXXXXXXXXXXXXXXXXXXXXXXX77D44641D1D7CAC64C",
     );
